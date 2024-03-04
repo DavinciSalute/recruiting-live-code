@@ -3,8 +3,8 @@ export class Calculator {
 
   constructor() {}
 
-  public calculate(expression: string): number {
-    this.expressionString = expression.trim()
+  public calculate(x: string): number {
+    this.expressionString = x.trim()
     const tokens = this.expressionString.split(/\s+/)
     const numbers: number[] = []
     const operators: string[] = []
