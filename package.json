@@ -1,0 +1,16 @@
+{
+  "name": "recruiting-test",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitest": "^2.1.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
