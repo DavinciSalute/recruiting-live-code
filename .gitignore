@@ -1,4 +1,14 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
+# plus Maven/Java additions for the java/ track
+
+# Maven / Java
+
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
 
 # Logs
 
