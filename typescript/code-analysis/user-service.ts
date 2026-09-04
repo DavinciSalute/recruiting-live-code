@@ -37,7 +37,6 @@ export class UserService {
   private _tempHashedPwd: string | undefined;
 
   // valida, calcola permessi, calcola rate limit, hasha, audita, notifica
-  // Ogni sezione con commento è un segnale che dovrebbe essere un metodo separato
   createUser(
     firstName: string,
     lastName: string,
