@@ -31,7 +31,7 @@ class GuestUser extends BaseUser {
   }
 }
 
-export class UserService {
+export class User {
 
   private _tempValidationErrors: string[] | undefined;
   private _tempHashedPwd: string | undefined;

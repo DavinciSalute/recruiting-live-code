@@ -36,7 +36,7 @@ mvn test
 ├── live-coding-2/                        # Esercizio 2 da svolgere durante il colloquio
 │   └── README.md
 ├── code-analysis/                        # Codice da analizzare e rivedere durante il colloquio
-│   └── UserService.java
+│   └── User.java
 ├── src/
 │   ├── main/java/com/recruiting/         # Il candidato implementa qui le soluzioni
 │   │   ├── livecoding/
@@ -53,7 +53,7 @@ Contengono la traccia dell'esercizio. Il candidato implementa la soluzione duran
 
 ### `code-analysis/`
 
-Contiene codice già scritto (non collegato alla build Maven) che il candidato deve leggere, analizzare e commentare criticamente (design, correttezza, edge case, sicurezza, ecc.). È la traduzione 1:1 di [`typescript/code-analysis/user-service.ts`](../typescript/code-analysis/user-service.ts), con gli stessi code smell.
+Contiene codice già scritto (non collegato alla build Maven) che il candidato deve leggere, analizzare e commentare criticamente (design, correttezza, edge case, sicurezza, ecc.). È la traduzione 1:1 di [`typescript/code-analysis/user.ts`](../typescript/code-analysis/user.ts), con gli stessi code smell.
 
 ---
 

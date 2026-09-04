@@ -1,7 +1,7 @@
 // Materiale per l'esercizio di code analysis.
 // Questo file NON fa parte della build Maven (non è sotto src/main/java): va solo
 // letto, analizzato e commentato criticamente dal candidato (design, correttezza, edge case, ecc.),
-// esattamente come la sua controparte TypeScript in typescript/code-analysis/user-service.ts.
+// esattamente come la sua controparte TypeScript in typescript/code-analysis/user.ts.
 
 package com.recruiting.codeanalysis;
 
@@ -50,7 +50,7 @@ class GuestUser extends BaseUser {
     }
 }
 
-public class UserService {
+public class User {
 
     private List<String> _tempValidationErrors;
     private String _tempHashedPwd;

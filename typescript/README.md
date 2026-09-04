@@ -42,7 +42,7 @@ npm run test:watch
 ├── live-coding-2/          # Esercizio 2 da svolgere durante il colloquio
 │   ├── README.md
 ├── code-analysis/        # Codice da analizzare e rivedere durante il colloquio
-│   ├── user-service.ts
+│   ├── user.ts
 ├── package.json
 └── tsconfig.json
 ```
